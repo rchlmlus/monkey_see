@@ -1,7 +1,7 @@
 import customtkinter as ctk
 import sqlite3
 
-DB_PATH = "C://Users//elijah//Documents//GitHub//monkey_see//Resources//SCDB.db"
+DB_PATH = "C://Users//rachel//Documents//GitHub//monkey_see//Resources//SCDB.db"
 
 def get_table_names():
     conn = sqlite3.connect(DB_PATH)
